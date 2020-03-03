@@ -1,10 +1,8 @@
 <?xml version='1.1' encoding='UTF-8'?>
 <hudson>
   <disabledAdministrativeMonitors/>
-  <version>2.112</version>
-  <installState>
-    <name>RUNNING</name>
-  </installState>
+  <version>2.223</version>
+  <installStateName>RUNNING</installStateName>
   <numExecutors>2</numExecutors>
   <mode>NORMAL</mode>
   <useSecurity>true</useSecurity>
@@ -21,8 +19,18 @@
   <buildsDir>${ITEM_ROOTDIR}/builds</buildsDir>
   <jdks>
     <jdk>
-      <name>java-8-openjdk-amd64</name>
-      <home>/usr/lib/jvm/java-8-openjdk-amd64</home>
+      <name>java-11-openjdk-amd64</name>
+      <home>/usr/local/openjdk-11</home>
+      <properties/>
+    </jdk>
+    <jdk>
+      <name></name>
+      <home></home>
+      <properties/>
+    </jdk>
+    <jdk>
+      <name></name>
+      <home></home>
       <properties/>
     </jdk>
   </jdks>
