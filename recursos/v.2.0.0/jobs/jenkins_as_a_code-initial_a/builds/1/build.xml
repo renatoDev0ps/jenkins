@@ -1,0 +1,71 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@2.36">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-LegacyCodeCause>
+            <stackTrace>
+              <trace>hudson.model.Cause$LegacyCodeCause.&lt;init&gt;(Cause.java:134)</trace>
+              <trace>hudson.model.BuildableItem.scheduleBuild(BuildableItem.java:44)</trace>
+              <trace>hudson.model.BuildableItem$scheduleBuild.call(Unknown Source)</trace>
+              <trace>org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)</trace>
+              <trace>org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)</trace>
+              <trace>org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:117)</trace>
+              <trace>initialjobs$_run_closure2.doCall(initialjobs.groovy:50)</trace>
+              <trace>java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
+              <trace>java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
+              <trace>java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
+              <trace>java.base/java.lang.reflect.Method.invoke(Method.java:566)</trace>
+              <trace>org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)</trace>
+              <trace>groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)</trace>
+              <trace>org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:294)</trace>
+              <trace>groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)</trace>
+              <trace>groovy.lang.Closure.call(Closure.java:414)</trace>
+              <trace>groovy.lang.Closure.call(Closure.java:430)</trace>
+              <trace>org.codehaus.groovy.runtime.DefaultGroovyMethods.callClosureForMapEntry(DefaultGroovyMethods.java:5278)</trace>
+              <trace>org.codehaus.groovy.runtime.DefaultGroovyMethods.each(DefaultGroovyMethods.java:2117)</trace>
+              <trace>org.codehaus.groovy.runtime.dgm$164.invoke(Unknown Source)</trace>
+              <trace>org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoMetaMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:251)</trace>
+              <trace>org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.call(PogoMetaMethodSite.java:71)</trace>
+              <trace>org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)</trace>
+              <trace>org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)</trace>
+              <trace>org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)</trace>
+              <trace>initialjobs.run(initialjobs.groovy:48)</trace>
+              <trace>groovy.lang.GroovyShell.evaluate(GroovyShell.java:585)</trace>
+              <trace>jenkins.util.groovy.GroovyHookScript.execute(GroovyHookScript.java:136)</trace>
+              <trace>jenkins.util.groovy.GroovyHookScript.execute(GroovyHookScript.java:127)</trace>
+              <trace>jenkins.util.groovy.GroovyHookScript.run(GroovyHookScript.java:110)</trace>
+              <trace>hudson.init.impl.GroovyInitScript.init(GroovyInitScript.java:41)</trace>
+              <trace>java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
+              <trace>java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
+              <trace>java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
+              <trace>java.base/java.lang.reflect.Method.invoke(Method.java:566)</trace>
+              <trace>hudson.init.TaskMethodFinder.invoke(TaskMethodFinder.java:104)</trace>
+              <trace>hudson.init.TaskMethodFinder$TaskImpl.run(TaskMethodFinder.java:175)</trace>
+              <trace>org.jvnet.hudson.reactor.Reactor.runTask(Reactor.java:296)</trace>
+              <trace>jenkins.model.Jenkins$5.runTask(Jenkins.java:1133)</trace>
+              <trace>org.jvnet.hudson.reactor.Reactor$2.run(Reactor.java:214)</trace>
+              <trace>org.jvnet.hudson.reactor.Reactor$Node.run(Reactor.java:117)</trace>
+              <trace>jenkins.security.ImpersonatingExecutorService$1.run(ImpersonatingExecutorService.java:59)</trace>
+              <trace>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)</trace>
+              <trace>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)</trace>
+              <trace>java.base/java.lang.Thread.run(Thread.java:834)</trace>
+            </stackTrace>
+          </hudson.model.Cause_-LegacyCodeCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <com.sonyericsson.rebuild.RebuildAction plugin="rebuild@1.31"/>
+  </actions>
+  <queueId>1</queueId>
+  <timestamp>1583687045570</timestamp>
+  <startTime>1583687045584</startTime>
+  <result>FAILURE</result>
+  <duration>42</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList"/>
+</flow-build>

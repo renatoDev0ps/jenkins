@@ -1,4 +1,4 @@
-FROM jenkins/jenkins:2.222-jdk11
+FROM jenkins/jenkins:2.223-jdk11
 
 LABEL Author="Renato do Nascimento Oliveira"
 
