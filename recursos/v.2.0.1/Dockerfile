@@ -1,8 +1,8 @@
-FROM jenkins/jenkins:2.112
+FROM jenkins/jenkins:2.219
 
-LABEL Author="Rodrigo Martinez da Rocha" 
+LABEL Author="Renato do Nascimento Oliveira" 
 
-ARG master_image_version="v.2.0.0"
+ARG master_image_version="v.2.0.1"
 ENV master_image_version $master_image_version
 
 USER jenkins

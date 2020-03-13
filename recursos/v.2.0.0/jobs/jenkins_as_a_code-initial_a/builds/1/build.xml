@@ -60,10 +60,10 @@
     <com.sonyericsson.rebuild.RebuildAction plugin="rebuild@1.31"/>
   </actions>
   <queueId>1</queueId>
-  <timestamp>1583691607442</timestamp>
-  <startTime>1583691607562</startTime>
+  <timestamp>1583761946303</timestamp>
+  <startTime>1583761946345</startTime>
   <result>FAILURE</result>
-  <duration>38</duration>
+  <duration>53</duration>
   <charset>UTF-8</charset>
   <keepLog>false</keepLog>
   <completed>true</completed>
